@@ -5,6 +5,8 @@ electron react material ui
 ### 预览图
 
 
+![Alt text](https://github.com/wq123456/EqsWidthReactTemp/blob/master/preview/ds.gif)
+![Alt text](https://github.com/wq123456/EqsWidthReactTemp/blob/master/preview/ds2.gif)
 
 
 ### 开发部署
