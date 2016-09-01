@@ -1,0 +1,76 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "buildapp": "webpack --progress --colors --config webpack.config.prod.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.25",
+    "css-loader": "^0.15.0",
+    "doctrine": "^1.2.0",
+    "electron-prebuilt": "^1.2.0",
+    "eslint": "^1.1.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^3.2.2",
+    "history": "^1.13.1",
+    "html-webpack-plugin": "^1.6.1",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.4",
+    "jsx-loader": "^0.12.2",
+    "marked": "^0.3.5",
+    "material-ui": "^0.15.4",
+    "moment": "^2.12.0",
+    "nconf": "^0.8.4",
+    "react": "^15.3.1",
+    "react-addons-perf": "^0.14.7",
+    "react-addons-pure-render-mixin": "^0.14.7",
+    "react-docgen": "^2.7.0",
+    "react-dom": "^0.14.8",
+    "react-helmet": "2.1.1",
+    "react-hot-loader": "^1.1.1",
+    "react-markdown-editor": "^0.3.2",
+    "react-redux": "^3.1.0",
+    "react-router": "^2.7.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.2.0",
+    "redux": "^3.0.2",
+    "redux-devtools": "^2.1.5",
+    "redux-logger": "^2.0.3",
+    "redux-simple-router": "^1.0.2",
+    "redux-thunk": "^1.0.0",
+    "style-loader": "^0.12.4",
+    "transfer-webpack-plugin": "^0.1.4",
+    "webpack": "^1.5.1",
+    "webpack-dev-server": "1.6.4"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "local-shell": "^1.0.0",
+    "nconf": "^0.8.4"
+  }
+}
