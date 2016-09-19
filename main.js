@@ -22,7 +22,7 @@ function createWindow () {
   ])
   tray.setToolTip('This is my application.')
   tray.setContextMenu(contextMenu);*/
-  mainWindow = new BrowserWindow({width: 800, height: 600,frame: false})
+  mainWindow = new BrowserWindow({width: 800, height: 600,frame: true})
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/index.html`)
